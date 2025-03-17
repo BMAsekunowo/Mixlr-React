@@ -4,6 +4,12 @@ import Img2 from './images/img2.png';
 import Img3 from './images/img3.png';
 import Img4 from './images/img4.png';
 import Img5 from './images/img5.png';
+import Icon1 from './images/icon1.svg';
+import Icon2 from './images/icon2.svg';
+import Icon3 from './images/icon3.svg';
+import Icon4 from './images/icon4.svg';
+import Icon5 from './images/icon5.svg';
+import Icon6 from './images/icon6.svg';
 
 
 
@@ -66,6 +72,60 @@ const Content = () => {
         </div>
 
         <h2 className='moreText'>And there's more...</h2>
+
+        <ul className='content2wrap'>
+            <li>
+                <span className="iconWrap">
+                <img src={Icon1} alt="" className='dashIcon'/>
+                </span>
+                <h3>One link, two functions</h3>
+                <p>Your scheduled event automatically turns into a live stream page with chat as soon as you go live. Use only one link to promote your event in advance and during your broadcast. </p>
+            </li>
+            <li>
+                <span className="iconWrap">
+                <img src={Icon2} alt="" className='dashIcon'/>
+                </span>  
+                <h3>Top level listener stats</h3>
+                <p>Keep informed on how well your broadcasts are performing with end-of-broadcast and weekly stats emails. Get numbers on your unique listeners, chat messages and hearts.</p>
+            </li>
+            <li>
+                <span className="iconWrap">
+                <img src={Icon3} alt="" className='dashIcon'/>
+                </span>
+                <h3>Private access to your channel</h3>
+                <p>Decide who can access your channel with access settings enabled. Remain private indefinitely or create one-off exclusive audio content for select listeners only.</p>
+            </li>
+            <li>
+                <span className="iconWrap">
+                <img src={Icon4} alt="" className='dashIcon'/>
+                </span>
+                <h3>Detailed listener metrics</h3>
+                <p>See how many unique listeners connected, how long for, and which countries or cities they tuned in from. View your listener stats over any selectable time period, and export the most relevant data as an easy to use spreadsheet file.</p>
+            </li>
+            <li>
+                <span className="iconWrap">
+                <img src={Icon5} alt="" className='dashIcon'/>
+                </span>
+                <h3>Optimal audio quality</h3>
+                <p>Control audio quality as needed to suit bandwidth restrictions or to match the quality required for your type of content. With the desktop app, you can switch between low, standard, and high quality audio even while broadcasting.</p>
+            </li>
+            <li>
+                <span className="iconWrap">
+                <img src={Icon6} alt="" className='dashIcon'/>
+                </span>
+                <h3>Go white label</h3>
+                <p>With a unique livestream URL, you're free to build your own website, app or player around your live audio. We encode your livestream URL in mp3 format at a quality of 128kbps.</p>
+            </li>
+        </ul>
+
+        <div className='secHero'>
+            <h2>Become a Mixlr <br />audio creator today</h2>
+                
+            <div className='buttonHold'>
+                <a className='ctaButton' href="/priceplans">Start Free Trial</a>
+            </div>
+        </div>
+
     </div>
   )
 }
