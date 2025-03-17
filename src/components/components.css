@@ -189,6 +189,14 @@ nav ul li a.active {
     gap: 25px;
 }
 
+.contentWrap2{
+    display: flex;
+    width: 64.67%; /* 970/1500 */
+    height: 480px;
+    margin: 0 17.67%;
+    gap: 25px;
+}
+
 .contentWords1 {
     display: flex;
     flex-direction: column;
@@ -379,4 +387,99 @@ footer p {
     width: 100%;
     height: 80px;
     text-align: center;
+}
+
+@media (max-width: 600px){
+    .logoContainer, .navbar, footer{
+        display: none;
+    }
+
+    .heroSection {
+        margin-top: 20px;
+        width: 100%;
+        height: 280px;
+        margin-bottom: 30px;
+    }
+
+    .heroSection h1 {
+        height: auto;
+        font-size: 40px;
+    }
+    
+    .heroSection p {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    .buttonHold {
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .contentWrap{
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin: 0 5%;
+    }
+
+    .contentWrap2{
+        flex-direction: column-reverse;
+        width: 90%;
+        height: auto;
+        margin: 0 5%;
+    }
+    
+    .contentWords1, .contentWords2 {
+        width: 100%;
+    }
+    
+    .contentWords1 h2, .contentWords2 h2 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    
+    .contentWords1 p, .contentWords2 p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .contentImg1, .contentImg2 {
+        width: 90%;
+        height: 100%;
+        margin: 0 5%;
+    }
+    
+    .dashImg {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .moreText {
+        width: 90%;
+        height: 80%;
+        margin: 0 5%;
+        font-size: 2.3rem;
+    }
+
+    .content2wrap {
+        width: 90%;
+        margin: 0 5%;
+        gap: 0;
+        grid-template-columns: 90%;
+    }
+
+    .secHero {
+        margin-top: 80px;
+        margin-left: 5%;
+        margin-bottom: 20px;
+        gap: 20px;
+        width: 90%;
+        height: auto;
+    }
+    
+    .secHero h2 {
+        font-size: 30px;
+    }
 }

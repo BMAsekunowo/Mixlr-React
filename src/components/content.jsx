@@ -29,7 +29,7 @@ const Content = () => {
             </div>            
         </div>
 
-        <div className="contentWrap">
+        <div className="contentWrap2">
             <div className="contentImg2">
                 <img src={Img2} alt="" className='dashImg'/>
             </div>
@@ -51,7 +51,7 @@ const Content = () => {
             </div>
         </div>
 
-        <div className="contentWrap">
+        <div className="contentWrap2">
             <div className="contentImg2">
                 <img src={Img4} alt="" className='dashImg'/>            
             </div>
