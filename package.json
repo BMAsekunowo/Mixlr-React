@@ -2,7 +2,7 @@
   "name": "mixlrclone",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://BMAsekunowo.github.io/Mixlr-React",
+  "homepage": "https://BMAsekunowo.github.io/Mixlr-React/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
